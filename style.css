@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+.attribution {
+    font-size: 11px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -7,5 +15,16 @@
 body{
     height: 100vh;
     place-content: center;
-    
+    display: grid;
+    background-color: hsl(0, 0%, 95%);
+    grid-template-areas: 'cr-yellow cr-aqua cr-green';
+}
+main.cr-yellow{
+    grid-area: 'cr-yellow';
+}
+main.cr-aqua{
+    grid-area: 'cr-aqua';
+}
+main.cr-green{
+    grid-area: 'cr-green';
 }
