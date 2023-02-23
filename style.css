@@ -19,7 +19,7 @@ body{
     background-color: hsl(0, 0%, 95%);
     grid-template-areas: 'cr-yellow cr-aqua cr-green';
 }
-main.cr-yellow{
+section.cr-yellow{
     grid-area: 'cr-yellow';
     background-color: hsl(31, 77%, 52%);
     width: 270px;
@@ -28,14 +28,14 @@ main.cr-yellow{
     border-bottom-left-radius: 0.5rem;
     color: hsl(0, 0%, 95%);
 }
-main.cr-aqua{
+section.cr-aqua{
     grid-area: 'cr-aqua';
     background-color: hsl(184, 100%, 22%);
     width: 270px;
     padding: 2.8rem;
     color: hsl(0, 0%, 95%);
 }
-main.cr-green{
+section.cr-green{
     grid-area: 'cr-green';
     background-color: hsl(179, 100%, 13%);
     width: 270px;
@@ -110,16 +110,16 @@ img{
         'cr-aqua'
         'cr-green';
     }
-    main.cr-yellow{
+    section.cr-yellow{
         border-bottom-left-radius: 0;
         border-top-left-radius: 0.5rem;
         border-top-right-radius: 0.5rem;
         padding: 2.4rem;
     }
-    main.cr-aqua{
+    section.cr-aqua{
         padding: 2.4rem;
     }
-    main.cr-green{
+    section.cr-green{
         border-top-right-radius: 0;
         border-bottom-left-radius: 0.5rem;
         border-bottom-right-radius: 0.5rem;
